@@ -10,8 +10,8 @@ const styles = introStyles;
 export const Intro = ()=> {
   return (
     <View style={styles.container}>
-      <Title style={styles.title}>Hola Nicolas!</Title>
-      <ActivityIndicator animating={true} color={Colors.red800} />
+      <Title style={styles.title}>Iniciando ! </Title>
+      <ActivityIndicator animating={true} color={Colors.blue800} />
         <StatusBar style="auto" />
     </View>
   );

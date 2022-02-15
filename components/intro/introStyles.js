@@ -1,6 +1,7 @@
 import { StyleSheet } from 'react-native';
 
 export const introStyles = StyleSheet.create({
+
     container: {
         flex: 1,
         backgroundColor: 'black',
@@ -8,8 +9,9 @@ export const introStyles = StyleSheet.create({
         justifyContent: 'center',
     },
     title: {
-        color: '#ffffff',
-        fontSize: '2rem',
-        fontweight: '600',
+        color: 'white',
+        fontSize: 35,
+        fontWeight: '400',
     }
+
 });
